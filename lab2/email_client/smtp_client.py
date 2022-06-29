@@ -5,11 +5,11 @@ from email.header import Header
 
 class smtp_client:
     def send_email(self):
-        sender_email_address = 'donaldshawn1199@163.com'
-        sender_email_password = 'QQTYBRQTVIJMPPUZ'
+        sender_email_address = 'hostname'
+        sender_email_password = 'your_password'
         smtp_server_host = "smtp.163.com"
         smtp_server_port = 25
-        receiver_email = 'shangwentao3@outlook.com'
+        receiver_email = ''
         message_subject = 'Nemo Diablo'
         
         # 要发送的邮件内容 
