@@ -8,8 +8,8 @@ class imap_client:
     def __init__(self):
 
         
-        self.user_id = 'donaldshawn1199@163.com'
-        self.password = 'QQTYBRQTVIJMPPUZ'
+        self.user_id = 'hostname'
+        self.password = 'your_password'
         self.imap_server = 'imap.163.com'
 
     def login(self):
